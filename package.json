@@ -1,12 +1,19 @@
 {
-  "name": "ec2-server",
+  "name": "mhm13dev-cors-anywhere",
   "version": "1.0.0",
-  "description": "MHM13 EC2 Server",
+  "description": "mhm13dev Cors Anywhere",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "author": "Mubashir Hassan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors-anywhere": "^0.4.3",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
